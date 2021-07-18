@@ -27,6 +27,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Colors.deepOrangeAccent,
       appBar: AppBar(
+        elevation: 0,
         backgroundColor: Colors.deepOrangeAccent,
         leading: Icon(Icons.menu),
         title: Text('Apple products'),
